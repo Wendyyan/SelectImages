@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- space sizes -->
+    <dimen name="space_more_huge">40dp</dimen>
+    <dimen name="space_huge">30dp</dimen>
+    <dimen name="space_large">20dp</dimen>
+    <dimen name="space_normal">13dp</dimen>
+    <dimen name="space_small">10dp</dimen>
+    <dimen name="space_tiny">6dp</dimen>
+
+    <dimen name="font_btn_huge">18sp</dimen>
+    <dimen name="font_btn_large">16sp</dimen>
+    <dimen name="font_btn_normal">14sp</dimen>
+    <dimen name="font_btn_small">12sp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4aafef</color>
+    <color name="colorPrimaryDark">#39b4e1</color>
+    <color name="colorAccent">#ff8640</color>
+
+    <!--主题色-->
+    <color name="theme">#4aafef</color>
+    <!--白色-->
+    <color name="white">#ffffff</color>
+    <!--灰白色-->
+    <color name="gray_white">#eeeeee</color>
+    <!--透明色-->
+    <color name="transparent">#00ffffff</color>
+    <!--分割线或者边框灰-->
+    <color name="gray_divider">#e1e2e3</color>
+    <!--主要文字颜色-->
+    <color name="tv_color_primary">#333333</color>
+
+    <color name="gray_no_available">#a2acb5</color>
+</resources>

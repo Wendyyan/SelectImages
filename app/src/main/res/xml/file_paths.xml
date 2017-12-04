@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <external-path name="my_images" path="select_image/"/>
+    <external-cache-path name="my_temp" path="select_image/" />
+    <files-path name="temp_img" path="select_image/" />
+    <cache-path name="temp_img" path="select_image/" />
+    <root-path name="name" path="" />
+
+</resources>

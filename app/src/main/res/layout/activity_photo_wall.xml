@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zyf.selectimage.activity.PhotoWallActivity">
+
+    <GridView
+        android:id="@+id/photo_wall_grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rl_bottom"
+        android:background="@color/gray_white"
+        android:scrollbars="none"
+        android:gravity="center"
+        android:numColumns="3"
+        android:stretchMode="columnWidth"
+        android:horizontalSpacing="3dp"
+        android:verticalSpacing="3dp"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:layout_alignParentBottom="true"
+        android:paddingTop="@dimen/space_small"
+        android:paddingBottom="@dimen/space_small"
+        android:paddingLeft="@dimen/space_large"
+        android:paddingRight="@dimen/space_large">
+
+        <TextView
+            android:id="@+id/tv_finish"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/shape_rounded_btn_gray"
+            android:text="@string/info_finish"
+            android:textSize="@dimen/font_btn_normal"
+            android:textColor="@color/white"
+            android:gravity="center"/>
+    </RelativeLayout>
+
+</RelativeLayout>
